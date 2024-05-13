@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.item-image{
+    max-width: 125px;
+}
+
+.item-text{
+    margin-bottom: 4px;
+}
+
+.container{
+    max-width: 390px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+
+.item{
+    text-align: center;
+}
+
+.buy-button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(0, 8, 100);
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    transition: background .2s linear;
+}
+
+.buy-button:hover{
+    background: rgb(0, 153, 180);
+}
+
+.info-button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(125, 129, 168);
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    transition: background .2s linear;
+}
+
+.info-button:hover{
+    background: rgb(199, 204, 247);
+}
